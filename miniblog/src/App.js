@@ -53,7 +53,7 @@ function App() {
               element={!user ? <Login/> : <Navigate to="/" />}></Route>
               <Route path='/register'
                element={!user ? <Register/> : <Navigate to="/" />}></Route>
-              <Route path='/post/create' 
+              <Route path='/posts/create' 
               element={user ? <CreatePost/> : <Navigate to="/login" />}></Route>
               <Route path='/dashboard' 
               element={user ? <Dashboard/> : <Navigate to="/login" />}></Route>
