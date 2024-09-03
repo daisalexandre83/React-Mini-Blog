@@ -14,7 +14,6 @@ const About = () => {
        Criar post
       </Link>
     </div>
-   
   )
 }
 
