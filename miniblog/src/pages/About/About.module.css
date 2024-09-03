@@ -8,6 +8,7 @@
 .about p{
     color: #AAA;
     margin-bottom: 2em;
+    background-color: red;
 }
 
 .about a{
