@@ -9,6 +9,7 @@ const firebaseConfig = {
   storageBucket: "miniblog-cc523.appspot.com",
   messagingSenderId: "682389123120",
   appId: "1:682389123120:web:4e22db8570659a8c7a3df5"
+  
 };
 
 const app = initializeApp(firebaseConfig);
