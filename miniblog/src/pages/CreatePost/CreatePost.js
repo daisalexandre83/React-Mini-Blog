@@ -57,8 +57,6 @@ const CreatePost = () => {
 
    //redirect to home page
    navigate("/");
-   
-   
   };
 
   return (
