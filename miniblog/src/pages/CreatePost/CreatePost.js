@@ -29,6 +29,7 @@ const CreatePost = () => {
     setFormError("A imagem precisa ser uma URL");
     return
    }
+   
   //  try {
   //   new URL(image)
   //  } catch (error) {
