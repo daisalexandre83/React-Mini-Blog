@@ -19,7 +19,7 @@ const Login = () => {
 
     const user = {
       email,
-      password
+      password,
     };
 
     const res = await login(user);

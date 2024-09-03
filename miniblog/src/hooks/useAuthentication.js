@@ -59,7 +59,7 @@ export const useAuthentication =() =>{
            }else if(error.message.includes("email.already")){
                systemErrorMessage="E-mail já cadastrado."
            } else{
-            systemErrorMessage = "Ocorreu erro,por favor tente mais tarde."
+            systemErrorMessage = "Ocorreu um erro,por favor tente mais tarde."
            }
            
            setLoading(false);
@@ -88,7 +88,6 @@ export const useAuthentication =() =>{
       setLoading(false);
      } catch (error) {
         let systemErrorMessage;
-      
 
            if (error.message.includes("user-not-found")){
              systemErrorMessage = "Usuário não encontrado.";

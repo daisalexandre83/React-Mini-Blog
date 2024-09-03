@@ -10,6 +10,7 @@ const initialState = {
 const insertReducer = (state,action) =>{
    switch (action.type) {
     case "LOADING":
+      
         return{loading:true,error:null}
     case "INSERTED_DOC": 
     return{loading:false,error:null}  
