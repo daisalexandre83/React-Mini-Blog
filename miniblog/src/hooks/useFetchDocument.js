@@ -3,6 +3,7 @@ import { db } from "../firebase/config";
 import { 
     doc,getDoc
    } from "firebase/firestore";
+   
 
 export const useFetchDocument = (docCollection,id) =>{
     const [document,setDocument] = useState (null);
