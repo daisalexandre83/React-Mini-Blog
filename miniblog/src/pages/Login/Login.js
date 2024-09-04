@@ -28,6 +28,7 @@ const Login = () => {
   };
 
   useEffect(()=>{
+    
     if (authError) {
       setError(authError);
     }
