@@ -6,7 +6,7 @@ import { useFetchDocument } from '../../hooks/useFetchDocument';
 
 const Post = () => {
   const {id} = useParams();
-  const {document:post,loading} = useFetchDocument("posts",id)
+  const {document:post,loading} = useFetchDocument("posts",id);
 
   return (
     <div>
