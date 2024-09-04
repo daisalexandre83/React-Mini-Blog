@@ -48,6 +48,7 @@ const Home = () => {
           </Link>
         </div>
       )}
+      
       {/* {loading && <p>Carregando...</p>}
       {posts && posts.map((post) => (
        
