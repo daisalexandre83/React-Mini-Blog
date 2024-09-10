@@ -7,7 +7,6 @@ const Footer = () => {
         <p>Mini Blog &copy; 2024</p>
     </footer>
   );
-  
 };
 
 export default Footer
