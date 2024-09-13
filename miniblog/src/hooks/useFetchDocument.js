@@ -33,7 +33,6 @@ export const useFetchDocument = (docCollection,id) =>{
 
             setLoading(true);
         }
-        
     }
 
     loadDocument();
