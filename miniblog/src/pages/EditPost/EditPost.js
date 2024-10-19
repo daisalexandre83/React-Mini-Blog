@@ -107,8 +107,7 @@ const EditPost = () => {
           <img 
           className={styles.image_preview}
           src={post.image}
-          alt={post.title}
-          ></img>
+          alt={post.title}/>
          </label>
          <label>
           <span>Conteúdo:</span>
